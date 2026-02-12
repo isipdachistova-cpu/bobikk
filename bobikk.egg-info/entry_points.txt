@@ -1,0 +1,2 @@
+[console_scripts]
+vd-games = games_project_chistova.VD_games.scripts.VD_main:main
