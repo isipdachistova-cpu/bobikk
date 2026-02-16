@@ -4,9 +4,13 @@ bobikk.egg-info/PKG-INFO
 bobikk.egg-info/SOURCES.txt
 bobikk.egg-info/dependency_links.txt
 bobikk.egg-info/entry_points.txt
+bobikk.egg-info/requires.txt
 bobikk.egg-info/top_level.txt
+games_project_chistova/VD_games.py
 games_project_chistova/__init__.py
+games_project_chistova/VD_games/VD_games.py
 games_project_chistova/VD_games/__init__.py
+games_project_chistova/VD_games/scripts/VD_even.py
 games_project_chistova/VD_games/scripts/VD_games.py
 games_project_chistova/VD_games/scripts/VD_main.py
 games_project_chistova/VD_games/scripts/__init__.py

@@ -4,15 +4,29 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "prompt>=0.4.1",
+]
 
 [project.scripts]
-vd-games = "games_project_chistova.VD_games.scripts.VD_main:main"
+vd-games = "games_project_chistova.VD_games.scripts.VD_games:main"
+vd-even = "games_project_chistova.VD_games.scripts.VD_even:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-[tool.uv]
-package = true
+[tool.hatch.build.targets.wheel]
+packages = ["games_project_chistova"]
 
+[dependency-groups]
+dev = [
+    "ruff>=0.15.1",
+]
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+select = ["F", "E", "W", "I"]
+ignore = ["E501"]

@@ -1,2 +1,3 @@
 [console_scripts]
-vd-games = games_project_chistova.VD_games.scripts.VD_main:main
+vd-even = games_project_chistova.VD_games.scripts.VD_even:main
+vd-games = games_project_chistova.VD_games.scripts.VD_games:main
