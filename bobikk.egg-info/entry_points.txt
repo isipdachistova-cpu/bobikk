@@ -1,3 +1,4 @@
 [console_scripts]
+vd-calc = games_project_chistova.VD_games.scripts.VD_calc:main
 vd-even = games_project_chistova.VD_games.scripts.VD_even:main
 vd-games = games_project_chistova.VD_games.scripts.VD_games:main
