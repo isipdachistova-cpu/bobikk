@@ -12,6 +12,7 @@ dependencies = [
 vd-games = "games_project_chistova.VD_games.scripts.VD_games:main"
 vd-even = "games_project_chistova.VD_games.scripts.VD_even:main"
 vd-calc = "games_project_chistova.VD_games.scripts.VD_calc:main"
+vd-gcd = "games_project_chistova.VD_games.scripts.VD_gcd:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
